@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: #fff;
+  /* border-bottom: 2px solid black; */
+}
+nav {
+  color: #0ab4f7;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: auto 1rem;
+}
+main {
+  background-color: rgba(0, 0, 0);
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+}
+img {
+  border-radius: 50%;
+}
+button {
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.codesandbox {
+  background-color: rgb(18, 106, 238);
+}
+.github {
+  background-color: green;
+}
+li::marker {
+  color: #0ab4f7;
+}

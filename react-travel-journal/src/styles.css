@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: #fff;
+  /* border-bottom: 2px solid black; */
+}
+nav {
+  color: #0ab4f7;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: auto 1rem;
+}
+main {
+  margin: 2rem auto;
+}
+.card {
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 1rem;
+  margin: 1rem auto;
+  border-radius: 15px;
+  width: 600px;
+  height: 240px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin: 10px 0 auto;
+}
+img {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.loc {
+  display: flex;
+  gap: 10px;
+}
