@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+  /* border-bottom: 2px solid black; */
+}
+nav {
+  color: #0ab4f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: 0 20px;
+}
+main {
+  background-color: rgba(0, 0, 0, 0.836);
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: max-content;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+input {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* border: none; */
+}
+input[type]:focus {
+  border: 2px solid #0ab4f7;
+}
+input[type="submit"] {
+  background-color: #0ab4f7;
+  color: white;
+  /* border: none; */
+  cursor: pointer;
+}
+p,
+div > p {
+  color: red;
+  font-size: 18px;
+}
+div > p {
+  color: #0ab4f7;
+}
+div > h2 {
+  color: green;
+}
+main > h2 {
+  border-bottom: 2px solid white;
+}
