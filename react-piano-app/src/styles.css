@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: black;
+  /* border-bottom: 2px solid black; */
+}
+nav {
+  color: #0ab4f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: 0;
+}
+
+main {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: black;
+  /* border-bottom: 2px solid black; */
+}
+nav {
+  color: #0ab4f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: 0;
+}
+.checkContainer {
+  margin-top: 1.5rem;
+}
+main {
+  margin: 0rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li::marker {
+  color: #0ab4f7;
+}
+li {
+  font-size: 22px;
+}
+.light {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+}
