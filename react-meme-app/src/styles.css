@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+  /* border-bottom: 2px solid black; */
+}
+nav {
+  color: #0ab4f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: 0 20px;
+}
+main {
+  background-color: rgba(0, 0, 0, 0.836);
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: max-content;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+input {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* border: none; */
+}
+input[type]:focus {
+  border: 2px solid #0ab4f7;
+}
+input[type="submit"] {
+  padding: 10px;
+  display: block;
+  background-color: #0ab4f7;
+  color: white;
+  /* border: none; */
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.meme {
+  position: relative;
+  margin: 1.8rem auto;
+}
+img {
+  height: 400px;
+  width: 450px;
+
+  border-radius: 5px;
+}
+.memeText {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.top-text {
+  top: 0;
+}
+.bottom-text {
+  bottom: 0;
+}
